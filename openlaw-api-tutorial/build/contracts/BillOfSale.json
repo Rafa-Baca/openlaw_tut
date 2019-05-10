@@ -112,15 +112,15 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.0+commit.1d4f565a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"name\":\"_descr\",\"type\":\"string\"},{\"name\":\"_price\",\"type\":\"uint256\"},{\"name\":\"_seller\",\"type\":\"address\"},{\"name\":\"_buyer\",\"type\":\"address\"}],\"name\":\"recordContract\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"seller\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"buyer\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"confirmReceipt\",\"outputs\":[],\"payable\":true,\"stateMutability\":\"payable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"price\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"confirmed\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"descr\",\"outputs\":[{\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"payable\":true,\"stateMutability\":\"payable\",\"type\":\"fallback\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/eric/openlaw-api-tutorial/contracts/BillOfSale.sol\":\"BillOfSale\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":2000},\"remappings\":[]},\"sources\":{\"/home/eric/openlaw-api-tutorial/contracts/BillOfSale.sol\":{\"keccak256\":\"0xa7cec95c9af88523ce9c0f6743fd7e88a47c9b04febe00c78cbd05a7a58490db\",\"urls\":[\"bzzr://456358fe131c8761fed9fd475585bdc70eded9c9c0d7b62a1f933b60e2296761\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b50610622806100206000396000f3fe6080604052600436106100825763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416630585ea69811461008457806308551a531461015b5780637150d8ae146101995780637d94ad98146101ae578063a035b1fe146101b6578063a968991b146101dd578063bbba364414610206575b005b34801561009057600080fd5b50610082600480360360808110156100a757600080fd5b8101906020810181356401000000008111156100c257600080fd5b8201836020820111156100d457600080fd5b803590602001918460018302840111640100000000831117156100f657600080fd5b91908080601f01602080910402602001604051908101604052809392919081815260200183838082843760009201919091525092955050823593505073ffffffffffffffffffffffffffffffffffffffff602083013581169260400135169050610290565b34801561016757600080fd5b506101706102fe565b6040805173ffffffffffffffffffffffffffffffffffffffff9092168252519081900360200190f35b3480156101a557600080fd5b5061017061031a565b610082610336565b3480156101c257600080fd5b506101cb6104a3565b60408051918252519081900360200190f35b3480156101e957600080fd5b506101f26104a9565b604080519115158252519081900360200190f35b34801561021257600080fd5b5061021b6104b2565b6040805160208082528351818301528351919283929083019185019080838360005b8381101561025557818101518382015260200161023d565b50505050905090810190601f1680156102825780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b83516102a390600290602087019061055b565b506003929092556000805473ffffffffffffffffffffffffffffffffffffffff9283167fffffffffffffffffffffffff0000000000000000000000000000000000000000918216179091556001805492909316911617905550565b60005473ffffffffffffffffffffffffffffffffffffffff1681565b60015473ffffffffffffffffffffffffffffffffffffffff1681565b60015473ffffffffffffffffffffffffffffffffffffffff1633146103bc57604080517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152601660248201527f6f6e6c792062757965722063616e20636f6e6669726d00000000000000000000604482015290519081900360640190fd5b60035430311461042d57604080517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152601d60248201527f7075726368617365207072696365206d7573742062652066756e646564000000604482015290519081900360640190fd5b6000805460405173ffffffffffffffffffffffffffffffffffffffff90911691303180156108fc02929091818181858888f19350505050158015610475573d6000803e3d6000fd5b50600480547fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00166001179055565b60035481565b60045460ff1681565b600280546040805160206001841615610100027fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff01909316849004601f810184900484028201840190925281815292918301828280156105535780601f1061052857610100808354040283529160200191610553565b820191906000526020600020905b81548152906001019060200180831161053657829003601f168201915b505050505081565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061059c57805160ff19168380011785556105c9565b828001600101855582156105c9579182015b828111156105c95782518255916020019190600101906105ae565b506105d59291506105d9565b5090565b6105f391905b808211156105d557600081556001016105df565b9056fea165627a7a723058206c675489e231663301f286324ab9c8b47fae24db087ff9477324fe241b3fcb0b0029",
-  "deployedBytecode": "0x6080604052600436106100825763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416630585ea69811461008457806308551a531461015b5780637150d8ae146101995780637d94ad98146101ae578063a035b1fe146101b6578063a968991b146101dd578063bbba364414610206575b005b34801561009057600080fd5b50610082600480360360808110156100a757600080fd5b8101906020810181356401000000008111156100c257600080fd5b8201836020820111156100d457600080fd5b803590602001918460018302840111640100000000831117156100f657600080fd5b91908080601f01602080910402602001604051908101604052809392919081815260200183838082843760009201919091525092955050823593505073ffffffffffffffffffffffffffffffffffffffff602083013581169260400135169050610290565b34801561016757600080fd5b506101706102fe565b6040805173ffffffffffffffffffffffffffffffffffffffff9092168252519081900360200190f35b3480156101a557600080fd5b5061017061031a565b610082610336565b3480156101c257600080fd5b506101cb6104a3565b60408051918252519081900360200190f35b3480156101e957600080fd5b506101f26104a9565b604080519115158252519081900360200190f35b34801561021257600080fd5b5061021b6104b2565b6040805160208082528351818301528351919283929083019185019080838360005b8381101561025557818101518382015260200161023d565b50505050905090810190601f1680156102825780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b83516102a390600290602087019061055b565b506003929092556000805473ffffffffffffffffffffffffffffffffffffffff9283167fffffffffffffffffffffffff0000000000000000000000000000000000000000918216179091556001805492909316911617905550565b60005473ffffffffffffffffffffffffffffffffffffffff1681565b60015473ffffffffffffffffffffffffffffffffffffffff1681565b60015473ffffffffffffffffffffffffffffffffffffffff1633146103bc57604080517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152601660248201527f6f6e6c792062757965722063616e20636f6e6669726d00000000000000000000604482015290519081900360640190fd5b60035430311461042d57604080517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152601d60248201527f7075726368617365207072696365206d7573742062652066756e646564000000604482015290519081900360640190fd5b6000805460405173ffffffffffffffffffffffffffffffffffffffff90911691303180156108fc02929091818181858888f19350505050158015610475573d6000803e3d6000fd5b50600480547fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00166001179055565b60035481565b60045460ff1681565b600280546040805160206001841615610100027fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff01909316849004601f810184900484028201840190925281815292918301828280156105535780601f1061052857610100808354040283529160200191610553565b820191906000526020600020905b81548152906001019060200180831161053657829003601f168201915b505050505081565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061059c57805160ff19168380011785556105c9565b828001600101855582156105c9579182015b828111156105c95782518255916020019190600101906105ae565b506105d59291506105d9565b5090565b6105f391905b808211156105d557600081556001016105df565b9056fea165627a7a723058206c675489e231663301f286324ab9c8b47fae24db087ff9477324fe241b3fcb0b0029",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.0+commit.1d4f565a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"name\":\"_descr\",\"type\":\"string\"},{\"name\":\"_price\",\"type\":\"uint256\"},{\"name\":\"_seller\",\"type\":\"address\"},{\"name\":\"_buyer\",\"type\":\"address\"}],\"name\":\"recordContract\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"seller\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"buyer\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"confirmReceipt\",\"outputs\":[],\"payable\":true,\"stateMutability\":\"payable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"price\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"confirmed\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"descr\",\"outputs\":[{\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"payable\":true,\"stateMutability\":\"payable\",\"type\":\"fallback\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/eric/openlaw_tut/openlaw-api-tutorial/contracts/BillOfSale.sol\":\"BillOfSale\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":2000},\"remappings\":[]},\"sources\":{\"/home/eric/openlaw_tut/openlaw-api-tutorial/contracts/BillOfSale.sol\":{\"keccak256\":\"0xa7cec95c9af88523ce9c0f6743fd7e88a47c9b04febe00c78cbd05a7a58490db\",\"urls\":[\"bzzr://456358fe131c8761fed9fd475585bdc70eded9c9c0d7b62a1f933b60e2296761\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b50610622806100206000396000f3fe6080604052600436106100825763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416630585ea69811461008457806308551a531461015b5780637150d8ae146101995780637d94ad98146101ae578063a035b1fe146101b6578063a968991b146101dd578063bbba364414610206575b005b34801561009057600080fd5b50610082600480360360808110156100a757600080fd5b8101906020810181356401000000008111156100c257600080fd5b8201836020820111156100d457600080fd5b803590602001918460018302840111640100000000831117156100f657600080fd5b91908080601f01602080910402602001604051908101604052809392919081815260200183838082843760009201919091525092955050823593505073ffffffffffffffffffffffffffffffffffffffff602083013581169260400135169050610290565b34801561016757600080fd5b506101706102fe565b6040805173ffffffffffffffffffffffffffffffffffffffff9092168252519081900360200190f35b3480156101a557600080fd5b5061017061031a565b610082610336565b3480156101c257600080fd5b506101cb6104a3565b60408051918252519081900360200190f35b3480156101e957600080fd5b506101f26104a9565b604080519115158252519081900360200190f35b34801561021257600080fd5b5061021b6104b2565b6040805160208082528351818301528351919283929083019185019080838360005b8381101561025557818101518382015260200161023d565b50505050905090810190601f1680156102825780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b83516102a390600290602087019061055b565b506003929092556000805473ffffffffffffffffffffffffffffffffffffffff9283167fffffffffffffffffffffffff0000000000000000000000000000000000000000918216179091556001805492909316911617905550565b60005473ffffffffffffffffffffffffffffffffffffffff1681565b60015473ffffffffffffffffffffffffffffffffffffffff1681565b60015473ffffffffffffffffffffffffffffffffffffffff1633146103bc57604080517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152601660248201527f6f6e6c792062757965722063616e20636f6e6669726d00000000000000000000604482015290519081900360640190fd5b60035430311461042d57604080517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152601d60248201527f7075726368617365207072696365206d7573742062652066756e646564000000604482015290519081900360640190fd5b6000805460405173ffffffffffffffffffffffffffffffffffffffff90911691303180156108fc02929091818181858888f19350505050158015610475573d6000803e3d6000fd5b50600480547fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00166001179055565b60035481565b60045460ff1681565b600280546040805160206001841615610100027fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff01909316849004601f810184900484028201840190925281815292918301828280156105535780601f1061052857610100808354040283529160200191610553565b820191906000526020600020905b81548152906001019060200180831161053657829003601f168201915b505050505081565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061059c57805160ff19168380011785556105c9565b828001600101855582156105c9579182015b828111156105c95782518255916020019190600101906105ae565b506105d59291506105d9565b5090565b6105f391905b808211156105d557600081556001016105df565b9056fea165627a7a723058208f439622b978d8eb37b4f5f18cfda2f985f5f1df22b461aa4c19fb98eab3498d0029",
+  "deployedBytecode": "0x6080604052600436106100825763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416630585ea69811461008457806308551a531461015b5780637150d8ae146101995780637d94ad98146101ae578063a035b1fe146101b6578063a968991b146101dd578063bbba364414610206575b005b34801561009057600080fd5b50610082600480360360808110156100a757600080fd5b8101906020810181356401000000008111156100c257600080fd5b8201836020820111156100d457600080fd5b803590602001918460018302840111640100000000831117156100f657600080fd5b91908080601f01602080910402602001604051908101604052809392919081815260200183838082843760009201919091525092955050823593505073ffffffffffffffffffffffffffffffffffffffff602083013581169260400135169050610290565b34801561016757600080fd5b506101706102fe565b6040805173ffffffffffffffffffffffffffffffffffffffff9092168252519081900360200190f35b3480156101a557600080fd5b5061017061031a565b610082610336565b3480156101c257600080fd5b506101cb6104a3565b60408051918252519081900360200190f35b3480156101e957600080fd5b506101f26104a9565b604080519115158252519081900360200190f35b34801561021257600080fd5b5061021b6104b2565b6040805160208082528351818301528351919283929083019185019080838360005b8381101561025557818101518382015260200161023d565b50505050905090810190601f1680156102825780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b83516102a390600290602087019061055b565b506003929092556000805473ffffffffffffffffffffffffffffffffffffffff9283167fffffffffffffffffffffffff0000000000000000000000000000000000000000918216179091556001805492909316911617905550565b60005473ffffffffffffffffffffffffffffffffffffffff1681565b60015473ffffffffffffffffffffffffffffffffffffffff1681565b60015473ffffffffffffffffffffffffffffffffffffffff1633146103bc57604080517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152601660248201527f6f6e6c792062757965722063616e20636f6e6669726d00000000000000000000604482015290519081900360640190fd5b60035430311461042d57604080517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152601d60248201527f7075726368617365207072696365206d7573742062652066756e646564000000604482015290519081900360640190fd5b6000805460405173ffffffffffffffffffffffffffffffffffffffff90911691303180156108fc02929091818181858888f19350505050158015610475573d6000803e3d6000fd5b50600480547fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00166001179055565b60035481565b60045460ff1681565b600280546040805160206001841615610100027fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff01909316849004601f810184900484028201840190925281815292918301828280156105535780601f1061052857610100808354040283529160200191610553565b820191906000526020600020905b81548152906001019060200180831161053657829003601f168201915b505050505081565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061059c57805160ff19168380011785556105c9565b828001600101855582156105c9579182015b828111156105c95782518255916020019190600101906105ae565b506105d59291506105d9565b5090565b6105f391905b808211156105d557600081556001016105df565b9056fea165627a7a723058208f439622b978d8eb37b4f5f18cfda2f985f5f1df22b461aa4c19fb98eab3498d0029",
   "sourceMap": "25:675:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;25:675:0;;;;;;;",
   "deployedSourceMap": "25:675:0:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;201:202;;8:9:-1;5:2;;;30:1;27;20:12;5:2;201:202:0;;;;;;13:3:-1;8;5:12;2:2;;;30:1;27;20:12;2:2;201:202:0;;;;;;;;21:11:-1;5:28;;2:2;;;46:1;43;36:12;2:2;201:202:0;;35:9:-1;28:4;12:14;8:25;5:40;2:2;;;58:1;55;48:12;2:2;201:202:0;;;;;;100:9:-1;95:1;81:12;77:20;67:8;63:35;60:50;39:11;25:12;22:29;11:107;8:2;;;131:1;128;121:12;8:2;201:202:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30:3:-1;22:6;14;1:33;99:1;81:16;;74:27;;;;-1:-1;201:202:0;;-1:-1:-1;;201:202:0;;;-1:-1:-1;;201:202:0;;;;;;;;;;;;;-1:-1:-1;201:202:0;;49:29;;8:9:-1;5:2;;;30:1;27;20:12;5:2;49:29:0;;;;;;;;;;;;;;;;;;;;;;;82:20;;8:9:-1;5:2;;;30:1;27;20:12;5:2;82:20:0;;;;439:259;;;;129:17;;8:9:-1;5:2;;;30:1;27;20:12;5:2;129:17:0;;;;;;;;;;;;;;;;;;;;150:21;;8:9:-1;5:2;;;30:1;27;20:12;5:2;150:21:0;;;;;;;;;;;;;;;;;;;;;;106:19;;8:9:-1;5:2;;;30:1;27;20:12;5:2;106:19:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;8:100:-1;33:3;30:1;27:10;8:100;;;90:11;;;84:18;71:11;;;64:39;52:2;45:10;8:100;;;12:14;106:19:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;201:202;321:14;;;;:5;;:14;;;;;:::i;:::-;-1:-1:-1;341:5:0;:14;;;;361:6;:16;;;;;;;;;;;;;;-1:-1:-1;384:14:0;;;;;;;;;;;-1:-1:-1;201:202:0:o;49:29::-;;;;;;:::o;82:20::-;;;;;;:::o;439:259::-;508:5;;;;494:10;:19;486:54;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;579:5;;562:4;554:21;:30;546:72;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;632:6;;;624:47;;632:6;;;;;657:4;649:21;624:47;;;;;649:21;;624:47;632:6;624:47;649:21;632:6;624:47;;;;;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;-1:-1;677:9:0;:16;;;;689:4;677:16;;;439:259::o;129:17::-;;;;:::o;150:21::-;;;;;;:::o;106:19::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;25:675::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;25:675:0;;;-1:-1:-1;25:675:0;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;:::o",
   "source": "pragma solidity ^0.5.0;\n\ncontract BillOfSale {\n  address payable public seller;\n  address public buyer;\n  string public descr;\n  uint public price;\n  bool public confirmed;\n  //from OpenLaw Template\n  function recordContract(string memory _descr, uint _price,\n    address payable _seller, address _buyer\n  ) public {\n    descr = _descr;\n    price = _price;\n    seller = _seller; \n    buyer = _buyer;\n  }\n\nfunction () external payable { }\n\nfunction confirmReceipt() public payable {\n    require(msg.sender == buyer, \"only buyer can confirm\");\n    require(address(this).balance == price, \"purchase price must be funded\");\n    address(seller).transfer(address(this).balance);\n    confirmed = true;\n  }\n}\n",
-  "sourcePath": "/home/eric/openlaw-api-tutorial/contracts/BillOfSale.sol",
+  "sourcePath": "/home/eric/openlaw_tut/openlaw-api-tutorial/contracts/BillOfSale.sol",
   "ast": {
-    "absolutePath": "/home/eric/openlaw-api-tutorial/contracts/BillOfSale.sol",
+    "absolutePath": "/home/eric/openlaw_tut/openlaw-api-tutorial/contracts/BillOfSale.sol",
     "exportedSymbols": {
       "BillOfSale": [
         80
@@ -670,7 +670,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 95,
+                            "referencedDeclaration": 152,
                             "src": "494:3:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -746,10 +746,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        98,
-                        99
+                        155,
+                        156
                       ],
-                      "referencedDeclaration": 99,
+                      "referencedDeclaration": 156,
                       "src": "486:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -800,7 +800,7 @@
                                 "name": "this",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 108,
+                                "referencedDeclaration": 165,
                                 "src": "562:4:0",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_contract$_BillOfSale_$80",
@@ -911,10 +911,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        98,
-                        99
+                        155,
+                        156
                       ],
-                      "referencedDeclaration": 99,
+                      "referencedDeclaration": 156,
                       "src": "546:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -954,7 +954,7 @@
                               "name": "this",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 108,
+                              "referencedDeclaration": 165,
                               "src": "657:4:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_contract$_BillOfSale_$80",
@@ -1187,7 +1187,7 @@
     "src": "0:701:0"
   },
   "legacyAST": {
-    "absolutePath": "/home/eric/openlaw-api-tutorial/contracts/BillOfSale.sol",
+    "absolutePath": "/home/eric/openlaw_tut/openlaw-api-tutorial/contracts/BillOfSale.sol",
     "exportedSymbols": {
       "BillOfSale": [
         80
@@ -1737,7 +1737,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 95,
+                            "referencedDeclaration": 152,
                             "src": "494:3:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -1813,10 +1813,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        98,
-                        99
+                        155,
+                        156
                       ],
-                      "referencedDeclaration": 99,
+                      "referencedDeclaration": 156,
                       "src": "486:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -1867,7 +1867,7 @@
                                 "name": "this",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 108,
+                                "referencedDeclaration": 165,
                                 "src": "562:4:0",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_contract$_BillOfSale_$80",
@@ -1978,10 +1978,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        98,
-                        99
+                        155,
+                        156
                       ],
-                      "referencedDeclaration": 99,
+                      "referencedDeclaration": 156,
                       "src": "546:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -2021,7 +2021,7 @@
                               "name": "this",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 108,
+                              "referencedDeclaration": 165,
                               "src": "657:4:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_contract$_BillOfSale_$80",
@@ -2257,9 +2257,16 @@
     "name": "solc",
     "version": "0.5.0+commit.1d4f565a.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "4": {
+      "events": {},
+      "links": {},
+      "address": "0x33180C5A94b95C41D9A93184A9c38CA505473307",
+      "transactionHash": "0x2fc5b7c42a33eb5334f41b192198cac196ac84669fde1546f4fc979fef1641cd"
+    }
+  },
   "schemaVersion": "3.0.9",
-  "updatedAt": "2019-05-07T04:52:17.283Z",
+  "updatedAt": "2019-05-10T04:00:26.701Z",
   "devdoc": {
     "methods": {}
   },
